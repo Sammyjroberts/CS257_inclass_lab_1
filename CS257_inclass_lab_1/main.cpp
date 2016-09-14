@@ -94,7 +94,7 @@ int main(int argc, const char * argv[]) {
             isStatementFiveTrue = false;
         }
     }
-    std::cout << "∀ x ∃ y, x − y 6= y − x: " << boolToStr(isStatementFiveTrue) << std::endl;
+    std::cout << "∀ x ∃ y, x − y != y − x: " << boolToStr(isStatementFiveTrue) << std::endl;
     
     //statement 6
     bool isStatementSixTrue = true;
