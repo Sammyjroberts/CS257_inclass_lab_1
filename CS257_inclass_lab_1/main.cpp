@@ -79,7 +79,7 @@ int main(int argc, const char * argv[]) {
             isStatementFourTrue = false;
         }
     }
-    std::cout << "∀ x ∃ y, x ∗ y = 0, but x 6= 0 and y 6= 0: " << boolToStr(isStatementFourTrue) << std::endl;
+    std::cout << "∀ x ∃ y, x ∗ y = 0, but x != 0 and y != 0: " << boolToStr(isStatementFourTrue) << std::endl;
     
     //statement 5
     bool isStatementFiveTrue = true;
